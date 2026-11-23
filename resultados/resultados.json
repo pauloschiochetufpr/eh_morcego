@@ -1,0 +1,219 @@
+{
+ "semente_pos": 45,
+ "semente_pos_total": 48,
+ "semente_neg": 597,
+ "semente_generos": [
+  "Myotis",
+  "Pteropus",
+  "Rhinolophus",
+  "Desmodus",
+  "Tadarida"
+ ],
+ "historico": [
+  {
+   "ciclo": 1,
+   "positivos": 73,
+   "negativos": 697,
+   "previstos_pos_nao_rotulados": 35,
+   "novos_morcegos": 25,
+   "falsos_candidatos": 0,
+   "exemplos_novos": [
+    "Vespertilio_murinus",
+    "Brachyphylla_cavernarum",
+    "Pipistrellus_abramus",
+    "Nyctalus_noctula",
+    "Saccopteryx_leptura",
+    "Artibeus_jamaicensis",
+    "Lasiurus_borealis",
+    "Chalinolobus_tuberculatus"
+   ],
+   "negativos_dificeis": []
+  },
+  {
+   "ciclo": 2,
+   "positivos": 79,
+   "negativos": 816,
+   "previstos_pos_nao_rotulados": 10,
+   "novos_morcegos": 6,
+   "falsos_candidatos": 19,
+   "exemplos_novos": [
+    "Tonatia_saurophila",
+    "Pteronotus_parnellii",
+    "Cynopterus_brachyotis",
+    "Micronycteris_megalotis",
+    "Mystacina_tuberculata",
+    "Epomophorus_gambianus"
+   ],
+   "negativos_dificeis": [
+    "Scapanulus_oweni",
+    "Urotrichus_talpoides",
+    "Talpa_europaea",
+    "Uropsilus_sp_4_FT_2015",
+    "Sorex_araneus",
+    "Jaculus_jaculus"
+   ]
+  },
+  {
+   "ciclo": 3,
+   "positivos": 79,
+   "negativos": 941,
+   "previstos_pos_nao_rotulados": 0,
+   "novos_morcegos": 0,
+   "falsos_candidatos": 25,
+   "exemplos_novos": [],
+   "negativos_dificeis": [
+    "Choloepus_hoffmanni",
+    "Rhinoceros_unicornis",
+    "Ceratotherium_simum",
+    "Urva_javanica",
+    "Equus_asinus",
+    "Coelodonta_antiquitatis"
+   ]
+  }
+ ],
+ "rotulados": 1020,
+ "previstos": 7406,
+ "total_morcegos": 79,
+ "conf_final_vs_ref": [
+  8347,
+  0,
+  0,
+  79
+ ],
+ "grade": [
+  {
+   "kernel": "rbf",
+   "C": 0.1,
+   "f1": 0.9036613695437226
+  },
+  {
+   "kernel": "linear",
+   "C": 0.1,
+   "f1": 0.9575412569719971
+  },
+  {
+   "kernel": "rbf",
+   "C": 1,
+   "f1": 1.0
+  },
+  {
+   "kernel": "linear",
+   "C": 1,
+   "f1": 0.9283077453855443
+  },
+  {
+   "kernel": "rbf",
+   "C": 10,
+   "f1": 1.0
+  },
+  {
+   "kernel": "linear",
+   "C": 10,
+   "f1": 0.9283077453855443
+  },
+  {
+   "kernel": "rbf",
+   "C": 100,
+   "f1": 1.0
+  },
+  {
+   "kernel": "linear",
+   "C": 100,
+   "f1": 0.9283077453855443
+  }
+ ],
+ "melhor": {
+  "svc__C": 1,
+  "svc__kernel": "rbf"
+ },
+ "cv_media": {
+  "sensibilidade": 0.99875,
+  "precisao": 1.0,
+  "acuracia": 0.9999881235154394,
+  "especificidade": 1.0,
+  "f1": 0.9993333333333334
+ },
+ "cv_dp": {
+  "sensibilidade": 0.012437342963832749,
+  "precisao": 0.0,
+  "acuracia": 0.00011816952934757997,
+  "especificidade": 0.0,
+  "f1": 0.006633249580710799
+ },
+ "cv_agregado": {
+  "TP": 79,
+  "FP": 0,
+  "FN": 0,
+  "TN": 8347,
+  "sensibilidade": 1.0,
+  "precisao": 1.0,
+  "acuracia": 1.0,
+  "especificidade": 1.0,
+  "f1": 1.0
+ },
+ "holdout": {
+  "TP": 23,
+  "FP": 0,
+  "FN": 1,
+  "TN": 2504,
+  "sensibilidade": 0.9583333333333334,
+  "precisao": 1.0,
+  "acuracia": 0.9996044303797469,
+  "especificidade": 1.0,
+  "f1": 0.9787234042553191,
+  "morcegos_perdidos": [
+   "Desmodus_rotundus"
+  ],
+  "falsos_morcegos": []
+ },
+ "semente_vs_final": {
+  "TP": 31,
+  "FP": 4,
+  "FN": 0,
+  "TN": 7746,
+  "sensibilidade": 1.0,
+  "precisao": 0.8857142857142857,
+  "acuracia": 0.9994859272587071,
+  "especificidade": 0.9994838709677419,
+  "f1": 0.9393939393939394
+ },
+ "pca_var": [
+  0.03812617535557091,
+  0.020390363727398858
+ ],
+ "generos": [
+  "Anoura",
+  "Artibeus",
+  "Brachyphylla",
+  "Carollia",
+  "Chalinolobus",
+  "Corynorhinus",
+  "Cynopterus",
+  "Desmodus",
+  "Epomophorus",
+  "Eptesicus",
+  "Hipposideros",
+  "Hypsugo",
+  "Lasiurus",
+  "Lophostoma",
+  "Micronycteris",
+  "Murina",
+  "Myotis",
+  "Mystacina",
+  "Nyctalus",
+  "Pipistrellus",
+  "Plecotus",
+  "Pteronotus",
+  "Pteropus",
+  "Rhinolophus",
+  "Rhinophylla",
+  "Rousettus",
+  "Saccopteryx",
+  "Sturnira",
+  "Tadarida",
+  "Tonatia",
+  "Vampyrum",
+  "Vespertilio"
+ ],
+ "indice_base": 1
+}
