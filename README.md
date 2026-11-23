@@ -1,7 +1,5 @@
 # É morcego? Reconhecimento de padrões com SVM
 
-Trabalho de DS803 – Inteligência Computacional Aplicada I (TADS/UFPR).
-
 Encontra os morcegos (ordem Chiroptera) entre 8426 organismos descritos por 50
 padrões do genoma mitocondrial, usando um SVM com kernel RBF e enriquecimento
 iterativo da base rotulada.
@@ -75,8 +73,8 @@ python -m pytest
 ```
 e-morcego/
 ├── dados/
-│   ├── wpc50.dat                 padrões (8426 x 50), fornecido pelo professor
-│   ├── Names.txt                 nomes científicos, mesma ordem
+│   ├── wpc50.dat                
+│   ├── Names.txt                
 │   └── generos_chiroptera.txt    lista de referência: 235 gêneros de morcegos
 ├── morcegos/
 │   ├── config.py                 parâmetros (semente, C, tamanho dos ciclos...)
@@ -120,14 +118,3 @@ e-morcego/
    base enriquecida.
 5. **Avaliação** com busca em grade (kernel e C), validação cruzada 10-fold
    repetida 10x e holdout 70/30.
-
-## Publicar no GitHub
-
-```bash
-git init
-git add .
-git commit -m "É morcego? classificação com SVM"
-git branch -M main
-git remote add origin https://github.com/<seu-usuario>/e-morcego.git
-git push -u origin main
-```
