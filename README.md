@@ -92,7 +92,7 @@ e-morcego/
 └── requirements.txt
 ```
 
-Arquivos gerados em `resultados/`
+Arquivos do `resultados/`
 
 | Arquivo | Conteúdo |
 | --- | --- |
