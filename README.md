@@ -1,4 +1,4 @@
-# É morcego? Reconhecimento de padrões com SVM
+É morcego? Reconhecimento de padrões com SVM
 
 Encontra os morcegos (ordem Chiroptera) entre 8426 organismos descritos por 50
 padrões do genoma mitocondrial, usando um SVM com kernel RBF e enriquecimento
