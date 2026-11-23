@@ -7,7 +7,7 @@ iterativo da base rotulada.
 **Resultado:** 79 morcegos de 32 gêneros. Validação cruzada 10-fold repetida
 10x: sensibilidade 99,88%, precisão 100%, acurácia 99,999%.
 
-## Como rodar
+Como rodar
 
 Precisa de Python 3.10 ou mais novo.
 
@@ -47,7 +47,7 @@ Testes:
 python -m pytest
 ```
 
-## Saída esperada
+Saída esperada
 
 ```
 [1/6] Lendo os dados
@@ -68,7 +68,7 @@ python -m pytest
 [6/6] Exportando resultados e figuras
 ```
 
-## Estrutura
+Estrutura
 
 ```
 e-morcego/
@@ -92,7 +92,7 @@ e-morcego/
 └── requirements.txt
 ```
 
-## Arquivos gerados em `resultados/`
+Arquivos gerados em `resultados/`
 
 | Arquivo | Conteúdo |
 | --- | --- |
@@ -103,7 +103,7 @@ e-morcego/
 | `resultados.json` | ciclos, busca em grade e todas as métricas |
 | `fig_pca.png`, `fig_ciclos.png`, `fig_scores.png` | figuras |
 
-## Como funciona
+Como funciona
 
 1. **Supervisão inicial.** Positivos: os 5 gêneros de morcegos da pesquisa
    preliminar (*Myotis*, *Pteropus*, *Rhinolophus*, *Desmodus*, *Tadarida*).
